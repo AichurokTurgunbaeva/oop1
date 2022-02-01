@@ -9,7 +9,7 @@ public class Main {
         Adam.familiyasi = "Turgunbaeva";
         Adam.jashy = 27;
         Adam.salmagy = 49;
-        Adam.demAlat();
+
 
         Adam Adam2 = new Adam();
         Adam2.aty = "Ayzirek";
@@ -17,7 +17,7 @@ public class Main {
         Adam2.familiyasi = "Turgunbaeva";
         Adam2.jashy = 25;
         Adam2.salmagy = 50;
-        Adam2.jashkaChigat();
+
 
         Adam Adam3 = new Adam();
         Adam3.aty = "Bekbolot";
@@ -25,6 +25,8 @@ public class Main {
         Adam3.familiyasi = "Turgunbaev";
         Adam3.jashy = 22;
         Adam3.salmagy = 60;
-        Adam3.tamakJeyt();
+
+        int sum = Adam.salmagy+Adam2.salmagy+Adam3.salmagy;
+        System.out.println("Uch adamdin salmaginin summasi: " +sum);
     }
 }
